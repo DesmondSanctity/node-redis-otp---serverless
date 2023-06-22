@@ -2,7 +2,6 @@ import express from 'express';
 import cors from 'cors';
 import morgan from 'morgan';
 import dotenv from 'dotenv';
-import redis from 'redis';
 import dbConnect from './database/conn.js';
 import userRouter from './router/user.js';
 
@@ -23,16 +22,6 @@ const port = process.env.PORT || 5000;
 app.get('/', (req, res) => {
     res.status(201).json("Home GET Request");
 });
-
-// create a client connection
-export const client = redis.createClient({
-    // url: process.env.REDIS_URL
-});
-
-// on the connection
-client.on("connect", () => console.log("Connected to Redis"));
-
-await client.connect();
 
 
 /** api routes */
