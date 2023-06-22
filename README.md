@@ -1,5 +1,5 @@
-# node-redis-otp
-A Node.js application that utilizes redis caching capabilities for managing OTPs
+# node-serverless
+A Node.js application that shows how to deploy an Node.js, Express app to AWS Lambda using Serveless Stack Toolkit
 
 # Working with the Project
 
