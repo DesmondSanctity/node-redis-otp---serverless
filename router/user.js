@@ -10,7 +10,6 @@ import * as controller from '../controllers/userController.js';
 
 userRouter.route('/register').post(controller.register); // register user
 userRouter.route('/login').post(controller.login); // login in app
-userRouter.route('/verify').post(controller.verifyUser, (req, res) => res.end()); // authenticate user
 
 
 
