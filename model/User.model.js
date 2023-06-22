@@ -25,10 +25,6 @@ export const UserSchema = new mongoose.Schema({
     lastName: {
         type: String,
         unique: false,
-    },
-    isVerified: {
-        type: Boolean,
-        default: false
     }
 });
 
