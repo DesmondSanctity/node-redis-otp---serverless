@@ -1,16 +1,16 @@
 {
-  "name": "redis-otp",
+  "name": "node-serverless",
   "version": "1.0.0",
   "description": "A Node.js app that uses redis caching capabilities to manage OTPs and verifications",
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "swagger": "node swagger.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DesmondSanctity/node-redis-otp.git"
+    "url": "git+https://github.com/DesmondSanctity/node-serverless.git"
   },
   "keywords": [
     "redis",
@@ -27,14 +27,10 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.8.0",
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.20",
-    "otp-generator": "^4.0.1",
-    "redis": "^4.6.6"
+    "mongoose": "^6.8.0"
   },
   "bugs": {
-    "url": "https://github.com/DesmondSanctity/node-redis-otp/issues"
+    "url": "https://github.com/DesmondSanctity/node-serverless/issues"
   },
-  "homepage": "https://github.com/DesmondSanctity/node-redis-otp#readme"
+  "homepage": "https://github.com/DesmondSanctity/node-serverless#readme"
 }
